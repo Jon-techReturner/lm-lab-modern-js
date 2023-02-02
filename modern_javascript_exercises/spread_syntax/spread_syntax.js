@@ -4,7 +4,6 @@
  */
 
 export function allTheNumbers(numbers, moreNumbers) {
-  const first = numbers;
-  const more = moreNumbers;
-  console.log([first, ...more]);
+  let result = [...numbers, ...moreNumbers];
+  return result;
 }
